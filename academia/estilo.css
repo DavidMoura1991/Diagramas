@@ -1,0 +1,106 @@
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #3498db;
+    color: white;
+}
+
+.btn-success {
+    background: #2ecc71;
+    color: white;
+}
+
+.btn-danger {
+    background: #e74c3c;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #27ae60;
+    color: white;
+    padding: 12px 15px;
+    vertical-align: middle;
+    text-align: left;
+    font-weight: bold;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+    text-align: left;
+}
+
+th:nth-child(1), td:nth-child(1) { width: 25%; } /* Nome */
+th:nth-child(2), td:nth-child(2) { width: 20%; } /* CPF */
+th:nth-child(3), td:nth-child(3) { width: 15%; text-align: center; } /* Data */
+th:nth-child(4), td:nth-child(4) { width: 20%; text-align: center; } /* Telefone */
+th:nth-child(5), td:nth-child(5) { width: 20%; text-align: center; } /* Ações */
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+tr:hover {
+    background: #e8f4fd;
+}
+
+.btn-danger {
+    background: #e74c3c;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
